@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.mainContainer {
+  margin: 20px;
+}
+
+.productContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.product {
+  padding: 20px;
+  border: 2px solid blue;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
